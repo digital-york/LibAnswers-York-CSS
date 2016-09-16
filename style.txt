@@ -1,0 +1,137 @@
+<style>
+/* JEA: 17:25 13 April 2015 */
+/* Set global font to Verdana and set background colour to light grey */
+body.s-la-page-public {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #F6F6F6;
+}
+/* Set main container background colour to white and add some margin to top and bottom as per unviersity branding */
+body.s-la-page-public > div.container {
+	background-color: #FFF;
+	padding-left: 0;
+	padding-right: 0;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+/* Set some font properties */
+body,
+.innerbox p,
+.innerbox div,
+.innerbox font,
+.innerbox span,
+.innerbox td {
+	font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+}
+/* Style the breadcrumb trail ordered list */
+#s-la-bc > div > ol.breadcrumb {
+	background-color: #A7B3BA;
+	background-image: none;
+	border-top: 1px solid #FFF;
+	border-bottom: 1px solid #FFF;
+	height: 28px;
+	padding-left: 20px;
+	padding-top: 5px;
+}
+/* Set the colour of the breadcrumb anchors to black and set no underlines. Also set the colour of the RSS span */
+#s-la-bc > div > ol.breadcrumb > li + li:before,
+#s-la-bc > div > ol.breadcrumb,
+#s-la-bc > div > ol.breadcrumb > li > a,
+label.s-la-searchform-label.navbar-text,
+div.navbar-header p.navbar-text,
+#s-la-browsebar-collapse > ul.nav.navbar-nav.navbar-right > li > a,
+#s-la-browsebar-collapse > ul.nav.navbar-nav.navbar-right > li > a > span {
+	color: #000;
+	text-decoration: none;
+}
+/* Style the breadcrumb anchors */
+#s-la-bc > div > ol.breadcrumb > li > a,
+.breadcrumb > li + li:before {
+	padding: 5px;
+	background-color: #9CA7AE;
+	content: "\00BB";
+	height: 16px;
+}
+/* Set hover class so the underlines show up when hovering */
+#s-la-bc > div > ol.breadcrumb > li > a:hover,
+#s-la-browsebar-collapse > ul.nav.navbar-nav.navbar-right > li > a:hover {
+	text-decoration: underline;
+}
+/* Set the padding on the main title wrapper */
+#s-la-public-header {
+	padding: 0 15px;
+}
+/* Set the margin on the main title container */
+div#s-la-public-header.s-la-header.row.clearfix div.col-md-12 div.s-la-public-header-text {
+	margin-bottom: 0;
+}
+/* Set the background colour of the main title */
+div#s-la-public-header.s-la-header.row.clearfix div.col-md-12 {
+	background-color: #97217a;
+}
+/* Set the colour of main title and certain anchors to white */
+div#s-la-public-header.s-la-header.row.clearfix div.col-md-12,
+#s-la-footer-brand a,
+#s-la-footer-admin-links a,
+#editlink > a {
+	color: #FFF;
+}
+/* Set the main title font size and margins */
+body.s-la-page-home h1#s-la-public-header-title {
+	font-size: 28px;
+	margin: 5px 10px 10px 0;
+}
+/* Set the colours of the search ribbon */
+div#s-la-page-title-bar > div.s-la-color-bars {
+	background-color: #A7B3BA;
+	background-image: none;
+	border-top: #FFF 1px solid;
+}
+/* Set the button styles */
+button#s-la-askform-submit-15471,
+#s-la-searchform-1772 > button {
+	background-color: #97217A;
+	border-color: transparent;
+	background-image: none;
+}
+/* Set general anchor colours */
+body.s-la-page-public a:link {
+	color: #8e1872;
+	text-decoration: underline;
+}
+body.s-la-page-public a:hover {
+	color: #8e1872;
+	text-decoration: none;
+}
+body.s-la-page-public a:visited {
+	color: #5b0b32;
+}
+/* Set the colours of the breadcrumb anchors and the dropdown list anchors (Browse: All and Topics) */
+ol.s-la-color-bars a,
+.s-la-color-bars.navbar-default ul.s-la-navbrowse > li > a,
+.s-la-color-bars a:active,
+.s-la-color-bars a:hover,
+.s-la-color-bars a:hover .fa,
+.s-la-color-bars a:active .fa,
+.s-la-color-bars.navbar-default .navbar-nav > li > a:active,
+.s-la-color-bars.navbar-default .navbar-nav > li > a:hover {
+	color: #555;
+}
+/* A forced removal of the space between the Library and LibAnswers breadcrumb trail items - see https://css-tricks.com/fighting-the-space-between-inline-block-elements/ */
+#s-la-bc > div > ol.breadcrumb li {} #s-la-bc > div > ol > li:nth-child(1) > a {
+	margin-right: -4px;
+}
+/* Set the pagination styles */
+#s-la-public-search-pager > li > a {
+	background-color: #FFF;
+	border-color: #97217A;
+}
+/* Set the pagination hover and active styles */
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+	color: #97217A;
+}
+</style>
