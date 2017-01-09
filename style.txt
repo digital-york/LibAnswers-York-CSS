@@ -134,4 +134,6 @@ ol.s-la-color-bars a,
 .pagination > .active > span:focus {
 	color: #97217A;
 }
+/* Indent the chat button on the home page */
+.s-la-content-chat {margin-left: -10px}
 </style>
